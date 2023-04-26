@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CsandovalExamen.Login">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Label Text="Sistema DE PAGO DE MATRICULAS"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <Image Source="https://sbsconsulting.com.ec/wp-content/uploads/2018/01/LOGO-UISRAEL-768x209.png"/>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Label Text="Ingrese el Usuario" Grid.Row="0" Grid.Column="0"/>
+                    <Entry x:Name="TxtUsuario" Placeholder="Ingrese su usuario" Grid.Row="0" Grid.Column="1" />
+                    <Label Text="Ingrese la Contraseña" Grid.Row="1" Grid.Column="0"/>
+                    <Entry x:Name="TxtContrasena" Placeholder="Ingrese su contraseña" IsPassword="True"  Grid.Row="1" Grid.Column="1"/>
+
+                </Grid>
+                <Button x:Name="btnIniciar" Text="INICIAR SESION" Clicked="btnIniciar_Clicked"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
