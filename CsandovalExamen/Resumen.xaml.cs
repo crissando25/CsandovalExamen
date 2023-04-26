@@ -12,11 +12,10 @@ namespace CsandovalExamen
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Resumen : ContentPage
     {
-            public Resumen(string nombre, string apellido)
+            public Resumen(string nombre, string apellido, string monto)
             {
             InitializeComponent();
-
-            UsuarioConenctado.Text = "\nResumen" +nombre + "\t" +apellido;
+            UsuarioConenctado.Text = "\n\tDatos" +nombre + "\n" +apellido +"\n" +monto ;
             }
        
     }

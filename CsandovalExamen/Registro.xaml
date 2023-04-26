@@ -19,8 +19,9 @@
                     <Entry x:Name="TxtNombre" Placeholder="Ingrese Nombre del Estudiante" Grid.Row="0" Grid.Column="1"/>
                     <Label Text="Ingrese el Apellido" Grid.Row="1" Grid.Column="0"/>
                     <Entry x:Name="TxtApellido" Placeholder="Ingrese Apellido del Estuadiante" Grid.Row="1" Grid.Column="1"/>
-                    <Label Text="Ingrese el Monto Inicial" Grid.Row="2" Grid.Column="1"/>
-                    <Entry x:Name="TxtMonto1" Placeholder="Ingrese el Monto Inicial" Keyboard="Numeric" Grid.Row="2" Grid.Column="1"/>
+                    <Label Text="Ingrese monto" Grid.Row="2" Grid.Column="1"/>
+                    <Entry x:Name="TxtMonto1" Placeholder="Ingrese el Monto 1" Keyboard="Numeric" Grid.Row="2" Grid.Column="1"/>
+                    
                     <Entry x:Name="TxtPmensual" Placeholder="Pago Mensual" Keyboard="Numeric" Grid.Row="3" Grid.Column="1"/>
                     <!--<Entry x:Name="Txttotal" Placeholder="Pago Total" Keyboard="Numeric" Grid.Row="4" Grid.Column="2"/>-->
                 </Grid>
