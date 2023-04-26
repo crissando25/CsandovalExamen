@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-                <Label Text="Sistema DE PAGO DE MATRICULAS"
+                <Label Text="SISTEMA  DE PAGO DE MATRICULAS"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
                 <Image Source="https://sbsconsulting.com.ec/wp-content/uploads/2018/01/LOGO-UISRAEL-768x209.png"/>

@@ -5,10 +5,7 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                <Label Text="REGISTRO DE ESTUDIANTES"
-
-            
-                HorizontalOptions="CenterAndExpand" FontSize="Medium" BackgroundColor="Blue"/>
+                <Label Text="REGISTRO DE ESTUDIANTES" HorizontalOptions="CenterAndExpand" FontSize="Medium" BackgroundColor="Green"/>
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition/>
@@ -25,9 +22,10 @@
                     <Label Text="Ingrese el Monto Inicial" Grid.Row="2" Grid.Column="1"/>
                     <Entry x:Name="TxtMonto1" Placeholder="Ingrese el Monto Inicial" Keyboard="Numeric" Grid.Row="2" Grid.Column="1"/>
                     <Entry x:Name="TxtPmensual" Placeholder="Pago Mensual" Keyboard="Numeric" Grid.Row="3" Grid.Column="1"/>
-
+                    <!--<Entry x:Name="Txttotal" Placeholder="Pago Total" Keyboard="Numeric" Grid.Row="4" Grid.Column="2"/>-->
                 </Grid>
-                <Button x:Name="btnGuardar" Text="Guardar" Clicked="btnCalcular_Clicked"/>
+                <Button x:Name="btnGuardar" Text="Guardar" HorizontalOptions="Fill" Clicked="btnCalcular_Clicked" />
+                <Button x:Name="btnLimpiar" Text="Limpiar" HorizontalOptions="Start" Background="green" TextColor="Aqua" Clicked="btnLimpiar_Clicked"></Button>
 
 
             </StackLayout>

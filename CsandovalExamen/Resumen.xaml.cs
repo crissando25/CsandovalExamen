@@ -15,7 +15,8 @@ namespace CsandovalExamen
             public Resumen(string nombre, string apellido)
             {
             InitializeComponent();
-            UsuarioConenctado.Text = "\nResumen" +nombre + "" + apellido;
+
+            UsuarioConenctado.Text = "\nResumen" +nombre + "\t" +apellido;
             }
        
     }

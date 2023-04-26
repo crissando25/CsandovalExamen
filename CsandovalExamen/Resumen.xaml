@@ -13,9 +13,12 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Label Text="Nombre" Grid.Row="0" Grid.Column="0"/>
-            <Label Text="Apellido" Grid.Row="0" Grid.Column="0"/>
-            <Label Text="" x:Name ="UsuarioConenctado" FontSize="25" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            
+            <Label Text="Cr" Grid.Row="0" Grid.Column="0"/>
+            <Label Text="Sa" Grid.Row="0" Grid.Column="1"/>
+                <Label Text="CONECTADO" Grid.Row="0" Grid.Column="2"/>
+                <Label Text="" x:Name ="UsuarioConenctado" FontSize="25" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                
         </Grid>
     </StackLayout>
 </ContentPage.Content>
